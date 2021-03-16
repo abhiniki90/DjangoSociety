@@ -1,0 +1,9 @@
+<h3>Welcome to Django Society Signup!</h3>
+
+<form method="post" enctype="multipart/form-data">
+	{% csrf_token %}	
+	{{ form.as_p }}
+	<button type="Submit">Signup</button>
+
+</form>
+

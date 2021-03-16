@@ -1,0 +1,23 @@
+With Django, we can take web applications from concept to launch in a matter of hours.
+
+In this mini-project, I have learned the following:
+
+1. Setting Up a Django Project
+2. Working with Django Models and Admin
+3. Building URL Handlersand and Views
+4. Building Django Templates
+5. Opening the Python shell from the terminal and querying the model that is directly connected to the database
+6. Working with HTML
+7. Navigating to different web pages 
+8. Creating forms from both HTML and models.py
+
+CHALLENGES
+
+Though there were many challenges, the majority of the problems arose from URLs apart from retriving primary key table details from the foreign key table. In other words, navigating to different web pages is an issue that I believe I have rectified. Most of the challenges were overcome by researching from the web which I think was quite useful for the learnings as well.
+
+
+FUN PART
+
+Apart from the challenge which was one of the fun parts, I believe working and navigating to different web pages is another one. Furthermore, working on views.py and HTML files were learnings for me and I think I would need to work more on this to get familiar with different HTML and .py files. Lastly, learning to create a form from the model is crucial as it helps us to work with classes.
+
+

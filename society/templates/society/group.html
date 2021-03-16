@@ -1,0 +1,11 @@
+{% if latest_group_list %}
+	<ul>
+	<h2>Group List</h2>	
+	<h4>There are {{ count }} groups in the Society!</h4>
+	{% for group in latest_group_list %}
+		<li><a href="/society-blog/group/{{ group.id }}/">{{ group.description }}</a></li>
+	{% endfor %}
+</ul>
+{% else %}
+	<p>No groups are available</p>
+{% endif %}

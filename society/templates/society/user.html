@@ -1,0 +1,11 @@
+{% if latest_user_list %}
+	<ul>
+	<h2>UserProfile List</h2>
+	<h4>There are {{ count }} people in the Society!</h4>	
+	{% for user in latest_user_list %}
+		<li><a href="/society-blog/user/{{ user.id }}/">{{ user.about_me }}</a></li>
+	{% endfor %}
+</ul>
+{% else %}
+	<p>No users are available</p>
+{% endif %}

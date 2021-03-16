@@ -1,0 +1,11 @@
+{% if latest_event_list %}
+	<ul>
+	<h2>Event List</h2>	
+	<h4>There are {{ count }} events in the Society!</h4>
+	{% for event in latest_event_list %}
+		<li><a href="/society-blog/event/{{ event.id }}/">{{ event.creator_name }}</a></li>
+	{% endfor %}
+</ul>
+{% else %}
+	<p>No events are available</p>
+{% endif %}

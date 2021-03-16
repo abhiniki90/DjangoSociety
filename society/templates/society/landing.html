@@ -1,0 +1,34 @@
+
+
+<div style='float:left'>
+	<h3>Django Society 2021</h3>
+	<p align="LEFT">
+		This mini project is an exercise to look at your understanding of Django so far.
+	</p>
+
+	<div style='float:left; margin: 10px;'>
+		<form action="/society-blog/event" method="get">
+			<button type="Submit">Event</button>
+	</div>
+	<div style='float:left; margin: 10px;'>
+		</form><form action="/society-blog/group" method="get">
+			<button type="Submit">Group</button>
+		</form>
+	</div>
+	<div style='float:left; margin: 10px'>
+		<form action="/society-blog/user" method="get">
+			<button type="Submit">People</button>
+		</form>
+	</div>
+</div>
+
+<div style='float:right'>
+	<form action="{% url 'society:upload_image' %}" method="post">
+		{% csrf_token %}
+		<button type="Submit">Join</button><br>
+		<img src="https://automationpanda.files.wordpress.com/2017/09/django-logo-negative.png" width="200" height="150">			
+	</form>
+</div>
+
+
+
