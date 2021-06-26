@@ -1,0 +1,1 @@
+web: gunicorn DjangoSociety.wsgi --log-file -
